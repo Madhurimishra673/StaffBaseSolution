@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-StaffBaseE2ETest">
+              <span class="suite-name border-failed">StaffBaseE2ETest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-StaffBaseE2ETest">
+                    <span>C:\Users\madhurim\eclipse-workspace\StaffBaseE2E_MadhuriMishra\Runner\TestNGRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-StaffBaseE2ETest">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-StaffBaseE2ETest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-StaffBaseE2ETest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-StaffBaseE2ETest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-StaffBaseE2ETest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-StaffBaseE2ETest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-StaffBaseE2ETest" class="hide-methods failed suite-StaffBaseE2ETest"> (hide)</a> <!-- hide-methods failed suite-StaffBaseE2ETest -->
+                      <a href="#" panel-name="suite-StaffBaseE2ETest" class="show-methods failed suite-StaffBaseE2ETest"> (show)</a> <!-- show-methods failed suite-StaffBaseE2ETest -->
+                    </span>
+                    <div class="method-list-content failed suite-StaffBaseE2ETest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StaffBaseE2ETest" title="com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword" hash-for-method="ValidateFormSubmission(madhurimishra673@gmail.com, 123456, 123, I will need sponsorship for Work Visa before joining the co...)">ValidateFormSubmission(madhurimishra673@gmail.com, 123456, 123, I will need sponsorship for Work Visa before joining the co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StaffBaseE2ETest" title="com.testCases.Test_2_ApplyByFillingDetails" hash-for-method="validateFormSubmissionWithLinkdln(Jon, Chris, madhuri@gmail.com, 123, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need ...)">validateFormSubmissionWithLinkdln(Jon, Chris, madhuri@gmail.com, 123, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-StaffBaseE2ETest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-StaffBaseE2ETest" class="hide-methods passed suite-StaffBaseE2ETest"> (hide)</a> <!-- hide-methods passed suite-StaffBaseE2ETest -->
+                      <a href="#" panel-name="suite-StaffBaseE2ETest" class="show-methods passed suite-StaffBaseE2ETest"> (show)</a> <!-- show-methods passed suite-StaffBaseE2ETest -->
+                    </span>
+                    <div class="method-list-content passed suite-StaffBaseE2ETest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StaffBaseE2ETest" title="com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted" hash-for-method="validateEmailAndPhone(Jon, Chris, ab, ab, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need sponsorship for ...)">validateEmailAndPhone(Jon, Chris, ab, ab, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need sponsorship for ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StaffBaseE2ETest" title="com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails" hash-for-method="validateFormSubmissionWithEmptyDetails">validateFormSubmissionWithEmptyDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-StaffBaseE2ETest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-StaffBaseE2ETest" class="panel StaffBaseE2ETest">
+          <div class="suite-StaffBaseE2ETest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testCases.Test_2_ApplyByFillingDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFormSubmissionWithLinkdln(Jon, Chris, madhuri@gmail.com, 123, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need ...)">
+                  </a> <!-- validateFormSubmissionWithLinkdln(Jon, Chris, madhuri@gmail.com, 123, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need ...) -->
+                  <span class="method-name">validateFormSubmissionWithLinkdln</span>
+                  <span class="parameters">(Jon, Chris, madhuri@gmail.com, 123, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need sponsorship for Work Visa before joining the company, abc)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -&gt; id: resume_filename] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MADHURIM-W10LT&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\madhurim\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:34257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1ce303d511abdb7db547d0336dac313
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at utilities.CommonFunctions.getTextValue(CommonFunctions.java:989)
+	at pages.StaffBaseApplyPage.attachResume(StaffBaseApplyPage.java:223)
+	at com.testCases.Test_2_ApplyByFillingDetails.validateFormSubmissionWithLinkdln(Test_2_ApplyByFillingDetails.java:64)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StaffBaseE2ETest-class-failed -->
+          <div class="suite-StaffBaseE2ETest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateFormSubmission(madhurimishra673@gmail.com, 123456, 123, I will need sponsorship for Work Visa before joining the co...)">
+                  </a> <!-- ValidateFormSubmission(madhurimishra673@gmail.com, 123456, 123, I will need sponsorship for Work Visa before joining the co...) -->
+                  <span class="method-name">ValidateFormSubmission</span>
+                  <span class="parameters">(madhurimishra673@gmail.com, 123456, 123, I will need sponsorship for Work Visa before joining the company, abc)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.=&apos;Sign in with LinkedIn&apos;]/parent::button&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MADHURIM-W10LT&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\madhurim\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:34113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08a522e5a780f73d97a4a3847206632a
+*** Element info: {Using=xpath, value=//span[.=&apos;Sign in with LinkedIn&apos;]/parent::button}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
+	at utilities.CommonFunctions.clickElement(CommonFunctions.java:705)
+	at pages.StaffBaseApplyPage.clickApplyWithLinkdln(StaffBaseApplyPage.java:162)
+	at com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword.ValidateFormSubmission(Test_1_ApplyWithLinkdlnWithWrongPassword.java:56)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StaffBaseE2ETest-class-failed -->
+          <div class="suite-StaffBaseE2ETest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmailAndPhone(Jon, Chris, ab, ab, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need sponsorship for ...)">
+                  </a> <!-- validateEmailAndPhone(Jon, Chris, ab, ab, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need sponsorship for ...) -->
+                  <span class="method-name">validateEmailAndPhone</span>
+                  <span class="parameters">(Jon, Chris, ab, ab, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need sponsorship for Work Visa before joining the company, abc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StaffBaseE2ETest-class-passed -->
+          <div class="suite-StaffBaseE2ETest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFormSubmissionWithEmptyDetails">
+                  </a> <!-- validateFormSubmissionWithEmptyDetails -->
+                  <span class="method-name">validateFormSubmissionWithEmptyDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StaffBaseE2ETest-class-passed -->
+        </div> <!-- panel StaffBaseE2ETest -->
+        <div panel-name="test-xml-StaffBaseE2ETest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\madhurim\eclipse-workspace\StaffBaseE2E_MadhuriMishra\Runner\TestNGRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;StaffBaseE2ETest&quot;&gt;
+  &lt;parameter name=&quot;propertyfile&quot; value=&quot;Configuration&quot;/&gt;
+  &lt;parameter name=&quot;portNO&quot; value=&quot;&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;E2ETest_1&quot;&gt;
+    &lt;parameter name=&quot;Repository&quot; value=&quot;abc&quot;/&gt;
+    &lt;parameter name=&quot;UserName&quot; value=&quot;madhurimishra673@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;VisaInfo&quot; value=&quot;I will need sponsorship for Work Visa before joining the company&quot;/&gt;
+    &lt;parameter name=&quot;Phone&quot; value=&quot;123&quot;/&gt;
+    &lt;parameter name=&quot;Password&quot; value=&quot;123456&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2ETest_1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;E2ETest_2&quot;&gt;
+    &lt;parameter name=&quot;propertyfile&quot; value=&quot;Configuration&quot;/&gt;
+    &lt;parameter name=&quot;portNO&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;Repository&quot; value=&quot;abc&quot;/&gt;
+    &lt;parameter name=&quot;Email&quot; value=&quot;madhuri@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;VisaInfo&quot; value=&quot;I will need sponsorship for Work Visa before joining the company&quot;/&gt;
+    &lt;parameter name=&quot;FirstName&quot; value=&quot;Jon&quot;/&gt;
+    &lt;parameter name=&quot;Phone&quot; value=&quot;123&quot;/&gt;
+    &lt;parameter name=&quot;FileLocation&quot; value=&quot;C:\Users\madhurim\Downloads\imp\&quot;/&gt;
+    &lt;parameter name=&quot;LastName&quot; value=&quot;Chris&quot;/&gt;
+    &lt;parameter name=&quot;CoverLetter&quot; value=&quot;abc.pdf&quot;/&gt;
+    &lt;parameter name=&quot;Resume&quot; value=&quot;abc.pdf&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testCases.Test_2_ApplyByFillingDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2ETest_2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;E2ETest_3&quot;&gt;
+    &lt;parameter name=&quot;propertyfile&quot; value=&quot;Configuration&quot;/&gt;
+    &lt;parameter name=&quot;portNO&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2ETest_3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;E2ETest_4&quot;&gt;
+    &lt;parameter name=&quot;propertyfile&quot; value=&quot;Configuration&quot;/&gt;
+    &lt;parameter name=&quot;portNO&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;Repository&quot; value=&quot;abc&quot;/&gt;
+    &lt;parameter name=&quot;Email&quot; value=&quot;ab&quot;/&gt;
+    &lt;parameter name=&quot;VisaInfo&quot; value=&quot;I will need sponsorship for Work Visa before joining the company&quot;/&gt;
+    &lt;parameter name=&quot;FirstName&quot; value=&quot;Jon&quot;/&gt;
+    &lt;parameter name=&quot;Phone&quot; value=&quot;ab&quot;/&gt;
+    &lt;parameter name=&quot;FileLocation&quot; value=&quot;C:\Users\madhurim\Downloads\imp\&quot;/&gt;
+    &lt;parameter name=&quot;LastName&quot; value=&quot;Chris&quot;/&gt;
+    &lt;parameter name=&quot;CoverLetter&quot; value=&quot;abc.pdf&quot;/&gt;
+    &lt;parameter name=&quot;Resume&quot; value=&quot;abc.pdf&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2ETest_4 --&gt;
+&lt;/suite&gt; &lt;!-- StaffBaseE2ETest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-StaffBaseE2ETest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for StaffBaseE2ETest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">E2ETest_1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">E2ETest_2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">E2ETest_3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">E2ETest_4 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-StaffBaseE2ETest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for StaffBaseE2ETest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-StaffBaseE2ETest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for StaffBaseE2ETest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_StaffBaseE2ETest');
+function tableData_StaffBaseE2ETest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidateFormSubmission')
+data.setCell(0, 2, 'com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword')
+data.setCell(0, 3, 164367);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateFormSubmissionWithLinkdln')
+data.setCell(1, 2, 'com.testCases.Test_2_ApplyByFillingDetails')
+data.setCell(1, 3, 98624);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateEmailAndPhone')
+data.setCell(2, 2, 'com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted')
+data.setCell(2, 3, 89041);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateFormSubmissionWithEmptyDetails')
+data.setCell(3, 2, 'com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails')
+data.setCell(3, 3, 4443);
+window.suiteTableData['StaffBaseE2ETest']= { tableData: data, tableDiv: 'times-div-StaffBaseE2ETest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-StaffBaseE2ETest">
+              </div> <!-- times-div-StaffBaseE2ETest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-StaffBaseE2ETest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for StaffBaseE2ETest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ValidateFormSubmission(madhurimishra673@gmail.com, 123456, 123, I will need sponsorship for Work Visa before joining the co...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2022-09-02 19:54:11.834 [ERROR] : Element 'Proxy element for: DefaultElementLocator 'By.xpath: //span[.='Sign in with LinkedIn']/parent::button'' did not appear even after waiting for 120 seconds</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateFormSubmissionWithLinkdln(Jon, Chris, madhuri@gmail.com, 123, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2022-09-02 19:55:28.757 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -> xpath: //fieldset[@id='resume_fieldset']//button[@data-source='attach']] is successfull</span>
+                <span class="reporter-method-output">2022-09-02 19:56:35.357 [ERROR] : Element '[[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -> id: resume_chosen]' did not appear even after waiting for 60 seconds</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateFormSubmissionWithEmptyDetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2022-09-02 19:57:26.226 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2827775567a7dab0bd5d6615b9b5f89e)] -> id: submit_buttons] is successfull</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateEmailAndPhone(Jon, Chris, ab, ab, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need sponsorship for ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2022-09-02 19:58:08.741 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> xpath: //fieldset[@id='resume_fieldset']//button[@data-source='attach']] is successfull</span>
+                <span class="reporter-method-output">2022-09-02 19:58:16.482 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> xpath: //fieldset[@id='cover_letter_fieldset']//button[@data-source='attach']] is successfull</span>
+                <span class="reporter-method-output">2022-09-02 19:59:11.956 [ERROR] : Element did not appear even after waiting for 45 seconds</span>
+                <span class="reporter-method-output">2022-09-02 19:59:27.077 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> id: submit_buttons] is successfull</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-StaffBaseE2ETest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-StaffBaseE2ETest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Configuration, )</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">6240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToJobApplyPage</span>
+                <span class="method-start">6709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateFormSubmission(madhurimishra673@gmail.com, 123456, 123, I will need sponsorship for Work Visa before joining the co...)</span>
+                <span class="method-start">32087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ValidateFormSubmission status=FAILURE method=Test_1_ApplyWithLinkdlnWithWrongPasswo...)</span>
+                <span class="method-start">196659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">196664 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testCases.Test_2_ApplyByFillingDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Configuration, )</span>
+                <span class="method-start">198416 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">203711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToJobApplyPage</span>
+                <span class="method-start">203720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateFormSubmissionWithLinkdln(Jon, Chris, madhuri@gmail.com, 123, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need ...)</span>
+                <span class="method-start">229530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateFormSubmissionWithLinkdln status=FAILURE method=Test_2_ApplyByFillingDetail...)</span>
+                <span class="method-start">328362 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">328365 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Configuration, )</span>
+                <span class="method-start">328481 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">333197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToJobApplyPage</span>
+                <span class="method-start">333207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFormSubmissionWithEmptyDetails</span>
+                <span class="method-start">358677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateFormSubmissionWithEmptyDetails status=SUCCESS method=Test_3_ValidateSubmitt...)</span>
+                <span class="method-start">363127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">363131 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Configuration, )</span>
+                <span class="method-start">363217 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">368324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToJobApplyPage</span>
+                <span class="method-start">368335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateEmailAndPhone(Jon, Chris, ab, ab, C:\Users\madhurim\Downloads\imp\, abc.pdf, abc.pdf, I will need sponsorship for ...)</span>
+                <span class="method-start">394048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateEmailAndPhone status=SUCCESS method=Test_4_ValidateOnlyValidEmailAndPhoneIs...)</span>
+                <span class="method-start">483094 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">483096 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

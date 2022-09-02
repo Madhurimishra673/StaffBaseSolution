@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[2022-09-02 19:54:11.834 [ERROR] : Element 'Proxy element for: DefaultElementLocator 'By.xpath: //span[.='Sign in with LinkedIn']/parent::button'' did not appear even after waiting for 120 seconds]]>
+    </line>
+    <line>
+      <![CDATA[2022-09-02 19:55:28.757 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -> xpath: //fieldset[@id='resume_fieldset']//button[@data-source='attach']] is successfull]]>
+    </line>
+    <line>
+      <![CDATA[2022-09-02 19:56:35.357 [ERROR] : Element '[[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -> id: resume_chosen]' did not appear even after waiting for 60 seconds]]>
+    </line>
+    <line>
+      <![CDATA[2022-09-02 19:57:26.226 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2827775567a7dab0bd5d6615b9b5f89e)] -> id: submit_buttons] is successfull]]>
+    </line>
+    <line>
+      <![CDATA[2022-09-02 19:58:08.741 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> xpath: //fieldset[@id='resume_fieldset']//button[@data-source='attach']] is successfull]]>
+    </line>
+    <line>
+      <![CDATA[2022-09-02 19:58:16.482 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> xpath: //fieldset[@id='cover_letter_fieldset']//button[@data-source='attach']] is successfull]]>
+    </line>
+    <line>
+      <![CDATA[2022-09-02 19:59:11.956 [ERROR] : Element did not appear even after waiting for 45 seconds]]>
+    </line>
+    <line>
+      <![CDATA[2022-09-02 19:59:27.077 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> id: submit_buttons] is successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="StaffBaseE2ETest" duration-ms="484146" started-at="2022-09-02T14:21:26Z" finished-at="2022-09-02T14:29:30Z">
+    <groups>
+    </groups>
+    <test name="E2ETest_1" duration-ms="197714" started-at="2022-09-02T14:21:26Z" finished-at="2022-09-02T14:24:43Z">
+      <class name="com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword@50628080]" name="setUp" is-config="true" duration-ms="6218" started-at="2022-09-02T14:21:27Z" finished-at="2022-09-02T14:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Configuration]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword@50628080]" name="init" is-config="true" duration-ms="269" started-at="2022-09-02T14:21:33Z" finished-at="2022-09-02T14:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="navigateToJobApplyPage()[pri:0, instance:com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword@50628080]" name="navigateToJobApplyPage" is-config="true" duration-ms="25376" started-at="2022-09-02T14:21:33Z" finished-at="2022-09-02T14:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToJobApplyPage -->
+        <test-method status="FAIL" signature="ValidateFormSubmission(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword@50628080]" name="ValidateFormSubmission" duration-ms="164367" started-at="2022-09-02T14:21:59Z" finished-at="2022-09-02T14:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madhurimishra673@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[I will need sponsorship for Work Visa before joining the company]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[.='Sign in with LinkedIn']/parent::button"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MADHURIM-W10LT', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\madhurim\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:34113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08a522e5a780f73d97a4a3847206632a
+*** Element info: {Using=xpath, value=//span[.='Sign in with LinkedIn']/parent::button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[.='Sign in with LinkedIn']/parent::button"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MADHURIM-W10LT', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\madhurim\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:34113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08a522e5a780f73d97a4a3847206632a
+*** Element info: {Using=xpath, value=//span[.='Sign in with LinkedIn']/parent::button}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.collect(Unknown Source)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
+at utilities.CommonFunctions.clickElement(CommonFunctions.java:705)
+at pages.StaffBaseApplyPage.clickApplyWithLinkdln(StaffBaseApplyPage.java:162)
+at com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword.ValidateFormSubmission(Test_1_ApplyWithLinkdlnWithWrongPassword.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[2022-09-02 19:54:11.834 [ERROR] : Element 'Proxy element for: DefaultElementLocator 'By.xpath: //span[.='Sign in with LinkedIn']/parent::button'' did not appear even after waiting for 120 seconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateFormSubmission -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword@50628080]" name="afterMethod" is-config="true" duration-ms="3" started-at="2022-09-02T14:24:43Z" finished-at="2022-09-02T14:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateFormSubmission status=FAILURE method=Test_1_ApplyWithLinkdlnWithWrongPassword.ValidateFormSubmission(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword@50628080] output=2022-09-02 19:54:11.834 [ERROR] : Element 'Proxy element for: DefaultElementLocator 'By.xpath: //span[.='Sign in with LinkedIn']/parent::button'' did not appear even after waiting for 120 seconds]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword@50628080]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-09-02T14:24:43Z" finished-at="2022-09-02T14:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword -->
+    </test> <!-- E2ETest_1 -->
+    <test name="E2ETest_2" duration-ms="129955" started-at="2022-09-02T14:24:45Z" finished-at="2022-09-02T14:26:55Z">
+      <class name="com.testCases.Test_2_ApplyByFillingDetails">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_2_ApplyByFillingDetails@10280879]" name="setUp" is-config="true" duration-ms="5294" started-at="2022-09-02T14:24:45Z" finished-at="2022-09-02T14:24:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Configuration]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testCases.Test_2_ApplyByFillingDetails@10280879]" name="init" is-config="true" duration-ms="1" started-at="2022-09-02T14:24:50Z" finished-at="2022-09-02T14:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="navigateToJobApplyPage()[pri:0, instance:com.testCases.Test_2_ApplyByFillingDetails@10280879]" name="navigateToJobApplyPage" is-config="true" duration-ms="25807" started-at="2022-09-02T14:24:51Z" finished-at="2022-09-02T14:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToJobApplyPage -->
+        <test-method status="FAIL" signature="validateFormSubmissionWithLinkdln(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_2_ApplyByFillingDetails@10280879]" name="validateFormSubmissionWithLinkdln" duration-ms="98624" started-at="2022-09-02T14:25:16Z" finished-at="2022-09-02T14:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chris]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[madhuri@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\madhurim\Downloads\imp\]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc.pdf]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc.pdf]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[I will need sponsorship for Work Visa before joining the company]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -> id: resume_filename] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MADHURIM-W10LT', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\madhurim\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:34257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1ce303d511abdb7db547d0336dac313]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -> id: resume_filename] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MADHURIM-W10LT', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\madhurim\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:34257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1ce303d511abdb7db547d0336dac313
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at utilities.CommonFunctions.getTextValue(CommonFunctions.java:989)
+at pages.StaffBaseApplyPage.attachResume(StaffBaseApplyPage.java:223)
+at com.testCases.Test_2_ApplyByFillingDetails.validateFormSubmissionWithLinkdln(Test_2_ApplyByFillingDetails.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[2022-09-02 19:55:28.757 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -> xpath: //fieldset[@id='resume_fieldset']//button[@data-source='attach']] is successfull]]>
+            </line>
+            <line>
+              <![CDATA[2022-09-02 19:56:35.357 [ERROR] : Element '[[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -> id: resume_chosen]' did not appear even after waiting for 60 seconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFormSubmissionWithLinkdln -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.Test_2_ApplyByFillingDetails@10280879]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-02T14:26:55Z" finished-at="2022-09-02T14:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFormSubmissionWithLinkdln status=FAILURE method=Test_2_ApplyByFillingDetails.validateFormSubmissionWithLinkdln(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_2_ApplyByFillingDetails@10280879] output=2022-09-02 19:55:28.757 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (d1ce303d511abdb7db547d0336dac313)] -> xpath: //fieldset[@id='resume_fieldset']//button[@data-source='attach']] is successfull]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.Test_2_ApplyByFillingDetails@10280879]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-09-02T14:26:55Z" finished-at="2022-09-02T14:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.Test_2_ApplyByFillingDetails -->
+    </test> <!-- E2ETest_2 -->
+    <test name="E2ETest_3" duration-ms="34652" started-at="2022-09-02T14:26:55Z" finished-at="2022-09-02T14:27:30Z">
+      <class name="com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails@14b4d90b]" name="setUp" is-config="true" duration-ms="4715" started-at="2022-09-02T14:26:55Z" finished-at="2022-09-02T14:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Configuration]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails@14b4d90b]" name="init" is-config="true" duration-ms="3" started-at="2022-09-02T14:27:00Z" finished-at="2022-09-02T14:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="navigateToJobApplyPage()[pri:0, instance:com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails@14b4d90b]" name="navigateToJobApplyPage" is-config="true" duration-ms="25467" started-at="2022-09-02T14:27:00Z" finished-at="2022-09-02T14:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToJobApplyPage -->
+        <test-method status="PASS" signature="validateFormSubmissionWithEmptyDetails()[pri:0, instance:com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails@14b4d90b]" name="validateFormSubmissionWithEmptyDetails" duration-ms="4443" started-at="2022-09-02T14:27:25Z" finished-at="2022-09-02T14:27:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-09-02 19:57:26.226 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2827775567a7dab0bd5d6615b9b5f89e)] -> id: submit_buttons] is successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFormSubmissionWithEmptyDetails -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails@14b4d90b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-02T14:27:30Z" finished-at="2022-09-02T14:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFormSubmissionWithEmptyDetails status=SUCCESS method=Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails.validateFormSubmissionWithEmptyDetails()[pri:0, instance:com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails@14b4d90b] output=2022-09-02 19:57:26.226 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (2827775567a7dab0bd5d6615b9b5f89e)] -> id: submit_buttons] is successfull]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails@14b4d90b]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-09-02T14:27:30Z" finished-at="2022-09-02T14:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails -->
+    </test> <!-- E2ETest_3 -->
+    <test name="E2ETest_4" duration-ms="119884" started-at="2022-09-02T14:27:30Z" finished-at="2022-09-02T14:29:30Z">
+      <class name="com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted@406decb2]" name="setUp" is-config="true" duration-ms="5106" started-at="2022-09-02T14:27:30Z" finished-at="2022-09-02T14:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Configuration]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted@406decb2]" name="init" is-config="true" duration-ms="1" started-at="2022-09-02T14:27:35Z" finished-at="2022-09-02T14:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="navigateToJobApplyPage()[pri:0, instance:com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted@406decb2]" name="navigateToJobApplyPage" is-config="true" duration-ms="25710" started-at="2022-09-02T14:27:35Z" finished-at="2022-09-02T14:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToJobApplyPage -->
+        <test-method status="PASS" signature="validateEmailAndPhone(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted@406decb2]" name="validateEmailAndPhone" duration-ms="89041" started-at="2022-09-02T14:28:01Z" finished-at="2022-09-02T14:29:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chris]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ab]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\madhurim\Downloads\imp\]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc.pdf]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc.pdf]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[I will need sponsorship for Work Visa before joining the company]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2022-09-02 19:58:08.741 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> xpath: //fieldset[@id='resume_fieldset']//button[@data-source='attach']] is successfull]]>
+            </line>
+            <line>
+              <![CDATA[2022-09-02 19:58:16.482 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> xpath: //fieldset[@id='cover_letter_fieldset']//button[@data-source='attach']] is successfull]]>
+            </line>
+            <line>
+              <![CDATA[2022-09-02 19:59:11.956 [ERROR] : Element did not appear even after waiting for 45 seconds]]>
+            </line>
+            <line>
+              <![CDATA[2022-09-02 19:59:27.077 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> id: submit_buttons] is successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEmailAndPhone -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted@406decb2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-02T14:29:30Z" finished-at="2022-09-02T14:29:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateEmailAndPhone status=SUCCESS method=Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted.validateEmailAndPhone(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted@406decb2] output=2022-09-02 19:58:08.741 [INFO] : Click On Element [[ChromeDriver: chrome on WINDOWS (802e87d27b721e931e8241e7162b0bd4)] -> xpath: //fieldset[@id='resume_fieldset']//button[@data-source='attach']] is successfull]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted@406decb2]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-09-02T14:29:30Z" finished-at="2022-09-02T14:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted -->
+    </test> <!-- E2ETest_4 -->
+  </suite> <!-- StaffBaseE2ETest -->
+</testng-results>

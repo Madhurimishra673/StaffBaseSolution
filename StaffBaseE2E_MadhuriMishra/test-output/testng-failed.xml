@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [StaffBaseE2ETest]">
+  <parameter name="propertyfile" value="Configuration"/>
+  <parameter name="portNO" value=""/>
+  <test thread-count="5" name="E2ETest_1(failed)">
+    <parameter name="Repository" value="abc"/>
+    <parameter name="UserName" value="madhurimishra673@gmail.com"/>
+    <parameter name="VisaInfo" value="I will need sponsorship for Work Visa before joining the company"/>
+    <parameter name="Phone" value="123"/>
+    <parameter name="Password" value="123456"/>
+    <classes>
+      <class name="com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword">
+        <methods>
+          <include name="ValidateFormSubmission" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="init"/>
+          <include name="navigateToJobApplyPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testCases.Test_1_ApplyWithLinkdlnWithWrongPassword -->
+    </classes>
+  </test> <!-- E2ETest_1(failed) -->
+  <test thread-count="5" name="E2ETest_2(failed)">
+    <parameter name="propertyfile" value="Configuration"/>
+    <parameter name="portNO" value=""/>
+    <parameter name="Repository" value="abc"/>
+    <parameter name="Email" value="madhuri@gmail.com"/>
+    <parameter name="VisaInfo" value="I will need sponsorship for Work Visa before joining the company"/>
+    <parameter name="FirstName" value="Jon"/>
+    <parameter name="Phone" value="123"/>
+    <parameter name="FileLocation" value="C:\Users\madhurim\Downloads\imp\"/>
+    <parameter name="LastName" value="Chris"/>
+    <parameter name="CoverLetter" value="abc.pdf"/>
+    <parameter name="Resume" value="abc.pdf"/>
+    <classes>
+      <class name="com.testCases.Test_2_ApplyByFillingDetails">
+        <methods>
+          <include name="validateFormSubmissionWithLinkdln" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="navigateToJobApplyPage"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testCases.Test_2_ApplyByFillingDetails -->
+    </classes>
+  </test> <!-- E2ETest_2(failed) -->
+</suite> <!-- Failed suite [StaffBaseE2ETest] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1662126188143" stop="1662126277970" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>StaffBaseE2ETest : E2ETest_2[propertyfile=Configuration, portNO=, Repository=abc, Email=madhuri@gmail.com, VisaInfo=I will need sponsorship for Work Visa before joining the company, FirstName=Jon, Phone=123, FileLocation=C:\Users\madhurim\Downloads\imp\, LastName=Chris, CoverLetter=abc.pdf, Resume=abc.pdf]</name>
+    <title>StaffBaseE2ETest : E2ETest_2[propertyfile=Configuration, portNO=, Repository=abc, Email=madhuri@gmail.com, VisaInfo=I will need sponsorship for Work Visa before joining the company, FirstName=Jon, Phone=123, FileLocation=C:\Users\madhurim\Downloads\imp\, LastName=Chris, CoverLetter=abc.pdf, Resume=abc.pdf]</title>
+    <test-cases>
+        <test-case start="1662126221950" stop="1662126277368" status="passed">
+            <name>validateFormSubmissionWithLinkdln[Jon,Chris,madhuri@gmail.com,123,C:\Users\madhurim\Downloads\imp\,abc.pdf,abc.pdf,I will need sponsorship for Work Visa before joining the company,abc]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="StaffBaseE2ETest"/>
+                <label name="testGroup" value="E2ETest_2"/>
+                <label name="testClass" value="com.testCases.Test_2_ApplyByFillingDetails"/>
+                <label name="testMethod" value="validateFormSubmissionWithLinkdln"/>
+                <label name="host" value="madhurim-w10lt"/>
+                <label name="thread" value="20504@madhurim-w10lt.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

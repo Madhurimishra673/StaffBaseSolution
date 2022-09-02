@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StaffBaseE2ETest">
+
+	<parameter name="propertyfile" value="Configuration" />
+	<parameter name="portNO" value="" />
+	
+	
+	<test name="E2ETest_2">
+		<parameter name="propertyfile" value="Configuration" />
+		<parameter name="portNO" value="" />
+		
+	    <parameter name="FirstName" value="Jon" />
+		<parameter name="LastName" value="Chris" />
+		<parameter name="Email" value="madhuri@gmail.com" />
+		<parameter name="Phone" value="123" />
+		<parameter name="FileLocation" value="C:\Users\madhurim\Downloads\imp\" />
+		<parameter name="Resume" value="abc.pdf" />
+		<parameter name="CoverLetter" value="abc.pdf" />
+		<parameter name="VisaInfo" value="I will need sponsorship for Work Visa before joining the company" />
+		<parameter name="Repository" value="abc" />
+		   
+		<classes>		   
+			<class name="com.testCases.Test_2_ApplyByFillingDetails" />		
+		</classes>
+	</test>
+	
+	<test name="E2ETest_3">
+		<parameter name="propertyfile" value="Configuration" />
+		<parameter name="portNO" value="" />
+		   
+		<classes>		   
+			<class name="com.testCases.Test_3_ValidateSubmittingApllicationWithoutFillingMandatoryDetails" />		
+		</classes>
+	</test>
+	
+	<test name="E2ETest_4">
+		<parameter name="propertyfile" value="Configuration" />
+		<parameter name="portNO" value="" />
+		<parameter name="FirstName" value="Jon" />
+		<parameter name="LastName" value="Chris" />
+		<parameter name="Email" value="ab" />
+		<parameter name="Phone" value="ab" />
+		<parameter name="FileLocation" value="C:\Users\madhurim\Downloads\imp\" />
+		<parameter name="Resume" value="abc.pdf" />
+		<parameter name="CoverLetter" value="abc.pdf" />
+		<parameter name="VisaInfo" value="I will need sponsorship for Work Visa before joining the company" />
+		<parameter name="Repository" value="abc" />
+		   
+		<classes>
+			<class name="com.testCases.Test_4_ValidateOnlyValidEmailAndPhoneIsAccepted" />	
+		</classes>
+	</test>
+	
+
+
+</suite> <!-- Suite -->
